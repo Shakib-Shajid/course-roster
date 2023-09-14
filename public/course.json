@@ -1,0 +1,68 @@
+[
+    {
+      "course_name": "Introduction to C Programming",
+      "credit": 2,
+      "Price": 50,
+      "course_details": "This course covers the fundamental concepts of C programming language.",
+      "image": "https://i.ibb.co/mH6ZPV7/Rectangle-2-2.png"
+    },
+    {
+      "course_name": "Introduction to Algorithms",
+      "credit": 3,
+      "Price": 100,
+      "course_details": "This course covers the fundamental concepts of algorithms and their design principles.",
+      "image": "https://i.ibb.co/R2ZJ4wg/Rectangle-2-3.png"
+    },
+    {
+      "course_name": "Introduction to C++ for DSA",
+      "credit": 2,
+      "Price": 70,
+      "course_details": "This course covers the fundamental concepts of C++ programming language and its applications in data structures and algorithms.",
+      "image": "https://i.ibb.co/m9Kcht9/Rectangle-2-4.png"
+    },
+    {
+      "course_name": "Basic Data Structures",
+      "credit": 3,
+      "Price": 120,
+      "course_details": "This course covers the fundamental concepts of data structures and their design principles.",
+      "image": "https://i.ibb.co/R7WjB8j/Rectangle-3.png"
+    },
+    {
+      "course_name": "Introduction to OOP Python",
+      "credit": 2,
+      "Price": 80,
+      "course_details": "",
+      "image":"https://i.ibb.co/6ypZWmf/Rectangle-2.png"
+      
+    },
+     {
+          "course_name":"Software Engineering",
+          "credit":"3",
+          "Price":"150",
+          "course_details":"This course covers the fundamental concepts of software engineering and its methodologies.",
+          "image":"https://i.ibb.co/mDmdrxS/Rectangle-2-5.png"
+     },
+     {
+          "course_name":"AWS, Cloud Computing",
+          "credit":"3",
+          "Price":"200",
+          "course_details":"This course covers the fundamental concepts of AWS and cloud computing.",
+          "image":"https://i.ibb.co/yPtGMsG/Rectangle-3-1.png"
+     },
+     {
+          "course_name":"Database (MySQL)",
+          "credit":"2",
+          "Price":"90",
+          "course_details":"This course covers the fundamental concepts of database systems and their design principles using MySQL.",
+          "image":"https://i.ibb.co/HNFNdZw/Rectangle-2-1.png"
+     },
+     {
+          "course_name":"Problem-Solving Part",
+          "credit":"1",
+          "Price":"30",
+          "course_details":"This course covers problem-solving techniques and strategies.",
+          "image":"https://i.ibb.co/8gy2Zsv/Rectangle-2-6.png"
+     }
+  ]
+
+
