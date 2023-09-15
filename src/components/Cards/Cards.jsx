@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import Card from "../Card/Card";
+import PropTypes from 'prop-types';
 
-const Cards = () => {
+const Cards = ({ handleAddToBookmark }) => {
     const [cards, setCards] = useState([]);
 
     useEffect(() => {
@@ -15,20 +16,24 @@ const Cards = () => {
 
     return (
         <div>
-            <h3 className="text-2xl font-bold">Cards File created: {cards.length}</h3>
-            <div className="flex gap-6">
-                <div className="grid grid-cols-3 gap-6">
-                    {
-                        cards.map((card, idx) => <Card key={idx} card={card} />)
-                    }
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                {
+                    cards.map((card, idx) => <Card
+                        key={idx}
+                        card={card}
+                        handleAddToBookmark={handleAddToBookmark}
 
-                </div>
-                <div>
-                    <h3>Bookmarks</h3>
-                </div>
+                    />)
+                }
+
+
             </div>
         </div>
     );
 };
+
+Cards.propTypes = {
+    handleAddToBookmark: PropTypes.func
+}
 
 export default Cards;
