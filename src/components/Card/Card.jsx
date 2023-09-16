@@ -15,7 +15,7 @@ const Card = ({ card, handleAddToBookmark }) => {
                 <span><BiDollar className='text-xl items-baseline inline-flex' /> price: {price}</span>
                 <span> <BsBook className='text-xl items-baseline inline-flex' /> credit: {credit}hr</span>
             </div>
-            <button className='w-full bg-[#2F80ED] py-2 text-white rounded-lg' onClick={() => handleAddToBookmark(card)}>Select</button>
+            <button className='w-full bg-[#2F80ED] py-2 text-white rounded-lg' onClick={() => handleAddToBookmark(card, credit, price)}>Select</button>
 
         </div>
     );
@@ -23,7 +23,9 @@ const Card = ({ card, handleAddToBookmark }) => {
 
 Card.propTypes = {
     card: PropTypes.object.isRequired,
-    handleAddToBookmark: PropTypes.func
+    handleAddToBookmark: PropTypes.func,
+    handleCredit: PropTypes.func
+    // not need handleCredit
 }
 
 export default Card;

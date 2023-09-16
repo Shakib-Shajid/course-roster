@@ -3,7 +3,8 @@ import { useEffect } from "react";
 import Card from "../Card/Card";
 import PropTypes from 'prop-types';
 
-const Cards = ({ handleAddToBookmark }) => {
+const Cards = ({ handleAddToBookmark, handleCredit, handleRemaining }) => {
+    // 
     const [cards, setCards] = useState([]);
 
     useEffect(() => {
@@ -22,7 +23,8 @@ const Cards = ({ handleAddToBookmark }) => {
                         key={idx}
                         card={card}
                         handleAddToBookmark={handleAddToBookmark}
-
+                        handleCredit={handleCredit}
+                        handleRemaining={handleRemaining}
                     />)
                 }
 
@@ -33,7 +35,8 @@ const Cards = ({ handleAddToBookmark }) => {
 };
 
 Cards.propTypes = {
-    handleAddToBookmark: PropTypes.func
+    handleAddToBookmark: PropTypes.func,
+    handleCredit: PropTypes.func
 }
 
 export default Cards;
