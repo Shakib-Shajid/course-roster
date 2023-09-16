@@ -36,7 +36,8 @@ const Cards = ({ handleAddToBookmark, handleCredit, handleRemaining }) => {
 
 Cards.propTypes = {
     handleAddToBookmark: PropTypes.func,
-    handleCredit: PropTypes.func
+    handleCredit: PropTypes.func,
+    handleRemaining: PropTypes.func,
 }
 
 export default Cards;

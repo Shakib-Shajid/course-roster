@@ -26,6 +26,7 @@ Bookmarks.proTypes = {
     bookmarks: PropTypes.array,
     credit: PropTypes.number,
     price: PropTypes.number,
+    remaining: PropTypes.number
 }
 
 export default Bookmarks;
