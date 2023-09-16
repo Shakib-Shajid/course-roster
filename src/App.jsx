@@ -22,6 +22,7 @@ function App() {
 
     if (oldBookmarks.includes(card)) {
       toast.warn('Already Exist');
+      return;
     }
 
     setBookmarks(newBookmarks);
